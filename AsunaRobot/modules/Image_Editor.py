@@ -59,6 +59,8 @@ from AsunaRobot.bot_plugins.ImageEditor.edit_5 import (  # pylint:disable=import
 from AsunaRobot import pbot as Client
 
 lel = 00000000
+
+
 # pylint:disable=import-error
 @Client.on_message(filters.command(["edit", "editor"]))
 async def photo(client: Client, message: Message):
