@@ -169,7 +169,6 @@ async def hmm(client, message):
             and [(k) for k in u if k.startswith("/")]
             and re.findall(r"\[([^]]+)]\(\s*([^)]+)\s*\)", msg) != []
         ):
-
             h = " ".join(filter(lambda x: x[0] != "@", u))
             km = re.sub(r"\[([^]]+)]\(\s*([^)]+)\s*\)", r"", h)
             tm = km.split()
@@ -177,7 +176,6 @@ async def hmm(client, message):
             hm = jm.split()
             rm = " ".join(filter(lambda x: x[0] != "/", hm))
         elif [(k) for k in u if k.startswith("@")]:
-
             rm = " ".join(filter(lambda x: x[0] != "@", u))
         elif [(k) for k in u if k.startswith("#")]:
             rm = " ".join(filter(lambda x: x[0] != "#", u))
@@ -241,7 +239,6 @@ async def inuka(client, message):
         and [(k) for k in u if k.startswith("/")]
         and re.findall(r"\[([^]]+)]\(\s*([^)]+)\s*\)", msg) != []
     ):
-
         h = " ".join(filter(lambda x: x[0] != "@", u))
         km = re.sub(r"\[([^]]+)]\(\s*([^)]+)\s*\)", r"", h)
         tm = km.split()
@@ -249,7 +246,6 @@ async def inuka(client, message):
         hm = jm.split()
         rm = " ".join(filter(lambda x: x[0] != "/", hm))
     elif [(k) for k in u if k.startswith("@")]:
-
         rm = " ".join(filter(lambda x: x[0] != "@", u))
     elif [(k) for k in u if k.startswith("#")]:
         rm = " ".join(filter(lambda x: x[0] != "#", u))
@@ -316,7 +312,6 @@ async def inuka(client, message):
         and [(k) for k in u if k.startswith("/")]
         and re.findall(r"\[([^]]+)]\(\s*([^)]+)\s*\)", msg) != []
     ):
-
         h = " ".join(filter(lambda x: x[0] != "@", u))
         km = re.sub(r"\[([^]]+)]\(\s*([^)]+)\s*\)", r"", h)
         tm = km.split()
@@ -324,7 +319,6 @@ async def inuka(client, message):
         hm = jm.split()
         rm = " ".join(filter(lambda x: x[0] != "/", hm))
     elif [(k) for k in u if k.startswith("@")]:
-
         rm = " ".join(filter(lambda x: x[0] != "@", u))
     elif [(k) for k in u if k.startswith("#")]:
         rm = " ".join(filter(lambda x: x[0] != "#", u))

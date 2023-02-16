@@ -291,7 +291,6 @@ async def _(client, message):
 
 @pbot.on_message(filters.command(["glyric", "glyrics"]))
 async def lyrics(client, message):
-
     if r"-" in message.text:
         pass
     else:
